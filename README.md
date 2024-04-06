@@ -19,4 +19,4 @@ Model-View-Controller (MVC) arhitektūra. Šī arhitektūra atdala biznesa loģi
 ORM (Object-Relational Mapping) piedāvā elegantu un vienkāršu abstrakciju mijiedarbībai ar datu bāzi. Izmantojot Eloquent, ir viegli veikt CRUD (Create, Read, Update, Delete) darbības un noteikt attiecības starp dažādām datu entītijām. SQL nodrošina precīzu datu bāzes darbību kontroli un ir labi piemērota lietojumprogrammām un mantotajām sistēmām. No otras puses, ORM vienkāršo datu bāzes darbības, saskaņo ar objektu orientēto paradigmu un uzlabo produktivitāti.
 
 ## 5. Uzraksti Eloquent ORM pieprasījumu modelim User, kur nepieciešams iegūt visus lietotājus, kuriem reitings ir lielāks par 4.
-### $users = User::where('rating', '>', 4)->get();
+ $users = User::where('rating', '>', 4)->get();
