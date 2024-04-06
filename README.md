@@ -5,6 +5,7 @@ Lietojumprogrammu saskarne (application programming interface) ir noteikumu vai 
 
 ## 2. Kā deklarēt mainīgo PHP valodā?
 PHP mainīgais sākas ar $ zīmi, kam seko mainīgā nosaukums: 
+
 *$x = 3;*
 *$y = "Kartupelis"*
 
